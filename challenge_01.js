@@ -13,6 +13,10 @@ let Zahl1, Zahl2;
 
 Zahl1 = prompt("Bitte die Zahl eingeben");
 Zahl2 = prompt("Bitte die andere Zahl eingeben");
+parseInt(Zahl1);
+parseInt(Zahl2);
+summ = parseInt(Zahl1) + parseInt(Zahl2);
 
-console.log(Zahl1 + Zahl2);
+console.log(summ);
 
+// summ = parseInt(Zahl1) - parseInt(Zahl2);

@@ -9,14 +9,15 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-let Zahl1, Zahl2;
+let Zahl1, Zahl2, summe, differenz;
 
 Zahl1 = prompt("Bitte die Zahl eingeben");
 Zahl2 = prompt("Bitte die andere Zahl eingeben");
 parseInt(Zahl1);
 parseInt(Zahl2);
-summ = parseInt(Zahl1) + parseInt(Zahl2);
 
-console.log(summ);
+// summe = parseInt(Zahl1) + parseInt(Zahl2);
+// console.log("Das Ergebnis ist: " + summe);
 
-// summ = parseInt(Zahl1) - parseInt(Zahl2);
+differenz = parseInt(Zahl1) - parseInt(Zahl2);
+console.log("Das Ergebnis ist: " + differenz);

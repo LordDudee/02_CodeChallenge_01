@@ -9,15 +9,16 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-let Zahl1, Zahl2, summe, differenz;
+let zahl1, zahl2;
+let summe, differenz;
 
-Zahl1 = prompt("Bitte die Zahl eingeben");
-Zahl2 = prompt("Bitte die andere Zahl eingeben");
-parseInt(Zahl1);
-parseInt(Zahl2);
+zahl1 = prompt("Bitte die Zahl eingeben");
+zahl2 = prompt("Bitte die andere Zahl eingeben");
+parseInt(zahl1); // parseInt = Als Zahl erkennen, ohne Komma
+parseInt(zahl2);
 
-// summe = parseInt(Zahl1) + parseInt(Zahl2);
-// console.log("Das Ergebnis ist: " + summe);
+summe = parseInt(zahl1) + parseInt(zahl2);
+console.log("Das Ergebnis ist: " + summe);
 
-differenz = parseInt(Zahl1) - parseInt(Zahl2);
-console.log("Das Ergebnis ist: " + differenz);
+// differenz = parseInt(zahl1) - parseInt(zahl2);
+// console.log("Das Ergebnis ist: " + differenz);
